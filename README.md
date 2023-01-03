@@ -2,12 +2,14 @@
 
 Our homework assignment is designed to let you show off your skill in two areas of expertise: software development and systems administration. To successfully complete the homework and make a good impression you'll need to draw upon both disciplines.
 Your goal is to provide a working image colorization service. This service will accept JSON requests of this form:
+
 ```    
     {
       "op": "blueify",
       "image": "iVBORw...SuQmCC"
     }
 ```
+
 Where:
 * `"op"` is a colorization operation: `"blueify"`, `"greenify"`, or `"reddify"`, and
 * `"image"` is the base64-encoded image to be colorized
@@ -59,3 +61,7 @@ After you have succesfully made a submission you may shut down the Kubernetes cl
 
 **This task should take an appropriately trained mid-level developer with devops experience around 4 hours to complete.**
 
+### Submission
+
+* URL of running kubernetes cluseter
+* Image colorization service
