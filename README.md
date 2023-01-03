@@ -63,5 +63,5 @@ After you have succesfully made a submission you may shut down the Kubernetes cl
 
 ### Submission
 
-* URL of running kubernetes cluseter
+* URL of running kubernetes cluster
 * Image colorization service
