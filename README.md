@@ -29,7 +29,7 @@ Where:
 * `"image"` is the base64-encoded image colorized as requested
 
 We ask that you provide this service via a publicly-accessible Kubernetes cluster with a minimum of 3 running nodes. The Homework Submission Server will send several colorization requests to your cluster and will look for at least 3 different IP addresses to be sent back in the reply packets (along with the properly encoded images).
-The hard part of this task has been done for you. We're supplying the colorization server in the form of a binary executable. This server:
+The hard part of this task has been done for you. We're supplying the [colorization server](./server) in the form of a binary executable. This server:
 
 * listens for TCP connections on port 8080
 * accepts image colorization requests
@@ -40,7 +40,7 @@ The hard part of this task has been done for you. We're supplying the colorizati
 However, this server has a couple quirks. It:
 
 * only runs on ARM-based Linux Kubernetes pods, and
-* communicates using Protobuf instead of JSON
+* communicates using [Protobuf](./api.proto) instead of JSON
 
 The server may require a cluster role binding to provide it with the proper permissions. This can be done with a command similar to this:
 
