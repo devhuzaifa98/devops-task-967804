@@ -57,7 +57,6 @@ It's up to you to decide how to complete the task. We are asking that these requ
 * Make your service accessible to the Homework Submission Server
 * Write unit tests exercising the essential functionality of your code
 
-After you have succesfully made a submission you may shut down the Kubernetes cluster and any other active resources you set up. The submission server records successful submissions so it is not necessary to maintain an active cluster.
 
 **This task should take an appropriately trained mid-level developer with devops experience around 4 hours to complete.**
 
